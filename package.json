@@ -1,0 +1,28 @@
+{
+  "name": "@skaar/core",
+  "version": "0.1.0-alpha",
+  "description": "Skaar Core",
+  "scripts": {
+    "test": "jest tests",
+    "bundle-es5": "rollup --format=cjs --file=es5/index.js -- bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skaar-js/skaar-core.git"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "keywords": [
+    "skaar",
+    "core",
+    "lodash",
+    "underscore"
+  ],
+  "author": "Kasra Shamsaei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skaar-js/skaar-core/issues"
+  },
+  "homepage": "https://github.com/skaar-js/skaar-core#readme"
+}
